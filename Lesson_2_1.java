@@ -31,15 +31,17 @@ public class Lesson_2_1 {
         productsArray[1] = new Lesson_2_1("Supersonic HD07", "01.01.2021",
                 "Dyson", "Singapore", 15500, true);
        productsArray[2] = new Lesson_2_1("MacBook Air M3", "10.03.2024",
-                "Apple Inc.", "China", 7099, falce);
+                "Apple Inc.", "China", 7099, false);
         productsArray[3] = new Lesson_2_1("Dreame V11 SE Global", "01.06.2023",
                 "Dreame Technology", "China", 6059, true);
        productsArray[4] = new Lesson_2_1("Marshall Monitor II ANC", "01.04.2020",
-                "Marshall ", "China", 5000, falce);
+                "Marshall ", "China", 5000, false);
 
         for (int i = 0; i < productsArray.length; i++) {
             productsArray[i].printInfo();
             System.out.println("---");
         }
+     }
     }
+    
 
